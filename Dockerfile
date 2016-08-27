@@ -19,7 +19,6 @@ RUN git clone --depth 1 --single-branch https://github.com/reactjs/react-tutoria
 
 RUN sed -i "s/app.run(port=int(os.environ.get(\"PORT\",3000)))/app.run(debug=True, host='0.0.0.0', port=int(os.environ.get(\"PORT\",3000)))/g" server.py
 
-RUN npm install
-RUN node server.js
+RUN python server.py
 
 EXPOSE 3000
