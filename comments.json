@@ -1,12 +1,17 @@
 [
     {
         "id": 1388534400000,
-        "author": "Pete Hunt",
-        "text": "Hey there!"
+        "author": "Filipe",
+        "text": "Hello everyone at GSS, here's a first comment."
     },
     {
         "id": 1420070400000,
-        "author": "Paul O’Shannessy",
+        "author": "DSE John Doe",
         "text": "React is *great*!"
+    },
+     {
+        "id": 1420070400010,
+        "author": "DSE Jane Doe",
+        "text": "Hey John, hi Filipe"
     }
 ]
