@@ -131,7 +131,7 @@ var CommentForm = React.createClass({
         />
         <input
           type="text"
-          placeholder="Say something..."
+          placeholder="share your thoughts..."
           value={this.state.text}
           onChange={this.handleTextChange}
         />
